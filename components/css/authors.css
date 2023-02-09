@@ -1,0 +1,57 @@
+.authors {
+    width:88%;
+    margin:auto;
+}
+.authors__h2 {
+    font-family: Sen;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom:48px;
+}
+.authors__columns {
+    display:flex;
+    justify-content:space-between;
+}
+.authors__column {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color:#F4F4F4;
+    padding:40px 0 40px;
+    width:23%;
+    margin-bottom:32px;
+    transition:all 0.3s ease;
+}
+.authors__columns :hover {
+    background-color:#FBF6EA;
+}
+.authors__name {
+    font-family: Sen;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-top:20px;
+}
+.authors__job {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom:20px;
+    color:#6D6E76;
+}
+.authors__social {
+    display:flex;
+    gap:16px;
+}
+.authors__logos {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:108px 0 72px;
+}

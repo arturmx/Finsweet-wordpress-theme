@@ -1,0 +1,35 @@
+.header {
+    background-color: #232536;
+    position:fixed;
+    width:100%;
+    z-index:99;
+}
+.header__wrapper {
+    width:88%;
+    margin:auto;
+    padding:12px 0 12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header__nav {
+    display:flex;
+    align-items:center;
+}
+.header__a {
+    margin-right:24px;
+    text-decoration: none;
+    color:#FFF;
+    font-family: Inter;
+}
+.header__button {
+    color:#232536;
+    padding:16px 48px;
+    background-color: #FFF;
+    margin-left:8px;
+    font-family: Sen;
+    text-decoration: none;
+}
+.fixedheaderpatch {
+    height:72px;
+}

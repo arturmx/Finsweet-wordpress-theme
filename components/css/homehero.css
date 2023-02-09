@@ -1,0 +1,63 @@
+.homehero {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:650px;
+    font-family: 'Sen', sans-serif;
+    color:#FFF;
+}
+.homehero__wrapper {
+    width:88%;
+    margin:auto;
+}
+.homehero__h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    padding:128px 0 24px;
+}
+.homehero__span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.homehero__h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    max-width:800px;
+}
+.homehero__authordate {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding:24px 0 16px;
+}
+.homehero__author {
+    color:#FFD050;
+}
+.homehero__p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width:600px;
+    margin-bottom:60px;
+}
+.homehero__button {
+    background-color: #FFD050;
+    color:#232536;
+    padding:16px 48px;
+    margin:48px 0 192px;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}

@@ -1,0 +1,49 @@
+.whywestarted {
+    width:88%;
+    margin:auto;
+    position:relative;
+    margin-bottom:128px;
+}
+.whywestarted__right {
+    padding:74px;
+    position:absolute;
+    z-index:98;
+    right:0;
+    bottom:0;
+    background-color:#FFF;
+    width:43%;
+}
+.whywestarted__h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.whywestarted__h3 {
+    font-family: Sen;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin:24px 0 16px;
+}
+.whywestarted__p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#6D6E76;
+    margin-bottom:32px;
+}
+.whywestarted__button {
+    display:inline-block;
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    color:#232536;
+    background-color:#FFD050;
+    padding:16px 48px;
+}

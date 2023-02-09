@@ -1,0 +1,29 @@
+/*
+Theme Name: Client - first template
+Theme URI: https://wordpress.org/themes/Client - first template/
+Author: me
+Author URI: https://wordpress.org/
+Description: Client - first template
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Client - first template
+*/
+@import './reset';
+@import '../slick/slick';
+@import './components/abouthero';
+@import './components/aboutus';
+@import './components/allcat';
+@import './components/allposts';
+@import './components/authors';
+@import './components/contact';
+@import './components/featured';
+@import './components/featuredall';
+@import './components/footer';
+@import './components/header';
+@import './components/homehero';
+@import './components/ourteam';
+@import './components/privacy';
+@import './components/readnext';
+@import './components/singleblog';
+@import './components/subscribe';
+@import './components/testimonials';
+@import './components/whywestarted';

@@ -13,8 +13,7 @@
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap" rel="stylesheet">
-    <title><?php echo get_the_title(); ?>
-</title>
+    <title><?php echo get_the_title(); ?></title>
     <?php wp_head(); ?>
   </head>
   <body>

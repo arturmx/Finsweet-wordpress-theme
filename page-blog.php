@@ -1,8 +1,13 @@
-
 <?php
-  $query = new WP_Query(array(
-    'post_type'  => 'post',
-  ));
+  $page_object = get_queried_object();
+  $args = array(  
+    'post_type' => 'post',
+    'post_status' => 'publish',
+    'paged' => get_query_var( 'paged' ),
+    'posts_per_page' => 5,
+  );
+  
+  $query = new WP_Query( $args ); 
 ?>
 
 <?php get_header(); ?>
@@ -33,11 +38,10 @@
                   <p class ="allposts__p"><?php the_field('post_paragraph') ?></p>
               </div>
         </a>
-      <?php } ?>
-      <div class="allposts__arrows">
-        <a class="allposts__arrow">&lt Prev<?php previous_posts_link( 'Older posts' ); ?></a>
-        <a class="allposts__arrow">Next &gt<?php next_posts_link( 'Newer posts' ); ?></a>
-      </div>
+
+      <?php } wp_reset_postdata();?>
+      <?php pagination_bar( $query ); ?>
+
     </section>
   
     <section class="allcat">

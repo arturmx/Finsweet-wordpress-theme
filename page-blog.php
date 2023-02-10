@@ -48,25 +48,25 @@
       <h2 class="allcat__h2">All Categories</h2>
       <div class="allcat__columns">
         <a class="allcat__column" href="#">
-          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/components/allcat/Icon1.png"
+          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/assets/business.png"
           alt="2 houses symbol">
           <h3 class="allcat__h3">Business</h3>
           <p class="allcat__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
         </a>
         <a class="allcat__column" href="#">
-          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/components/allcat/Icon1.png"
+          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/assets/startup.png"
           alt="rocket symbol">
           <h3 class="allcat__h3">Startup</h3>
           <p class="allcat__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
         </a>
         <a class="allcat__column" href="#">
-          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/components/allcat/Icon3.png"
+          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/assets/economy.png"
           alt="chart symbol">
           <h3 class="allcat__h3">Economy</h3>
           <p class="allcat__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
         </a>
         <a class="allcat__column" href="#">
-          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/components/allcat/Icon4.png"
+          <img class="allcat__img" src="<?php echo get_template_directory_uri(); ?>/assets/technology.png"
           alt="human head symbol">
           <h3 class="allcat__h3">Technology</h3>
           <p class="allcat__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>

@@ -447,26 +447,30 @@ table {
   color: #6D6E76;
 }
 
-.allposts__arrow {
-  font-family: Sen;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-}
-
-.slick-arrow {
-  font-family: Sen;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-}
-
-.allposts__arrows {
+.pagination {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 17px;
   margin-top: 64px;
-  cursor: pointer;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #232536;
+  font-family: Sen;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.current {
+  margin-top: 4px;
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #6D6E76;
 }
 
 .authors {

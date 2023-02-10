@@ -39,8 +39,8 @@ function pagination_bar( $custom_query ) {
             'format' => '?paged=%#%',
             'current' => $current_page,
             'total' => $total_pages,
-            'prev_text' => 'Prev page',
-            'next_text' => 'Next page',
+            'prev_text' => '&lt Prev',
+            'next_text' => 'Next &gt',
                       'mid_size' => 1
         ));
         echo '</div>';

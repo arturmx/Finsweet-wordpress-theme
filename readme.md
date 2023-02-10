@@ -5,7 +5,7 @@ requies: Advanced Custom Fields
 
 includes:
 
--6 pages
+-6 wordpress pages coded based on Figma project
 
 -blog page with pagination and 4 categories
 

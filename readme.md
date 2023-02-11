@@ -13,4 +13,4 @@ includes:
 
 -js slider
 
--some simple hover animations
+-some hover animations

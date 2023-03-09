@@ -2,11 +2,11 @@
       <div class="footer__wrapper">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/Logo.png" alt="company logo" />
         <nav class="footer__nav">
-          <a href="#">Home</a>
-          <a href="#">Blog</a>
-          <a href="#">About Us</a>
-          <a href="#">Contact us</a>
-          <a href="#">Privacy policy</a>
+          <a href="/front-page">Home</a>
+          <a href="/blog">Blog</a>
+          <a href="/about-us">About Us</a>
+          <a href="/contact">Contact us</a>
+          <a href="/privacy-policy">Privacy policy</a>
         </nav>
       </div>
       <div class="footer__bg2">

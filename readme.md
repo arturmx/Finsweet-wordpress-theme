@@ -1,6 +1,8 @@
-Wordpress theme
+Finsweet wordpress theme
 
 requies: Advanced Custom Fields
+
+You can always download zip file which contains all project files
 
 
 includes:
